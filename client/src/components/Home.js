@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div className='home'>
-      Home Page
+      Instalar Sass
     </div>
   )
 }

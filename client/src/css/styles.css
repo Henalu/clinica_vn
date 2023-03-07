@@ -5,4 +5,43 @@
   list-style: none;
 }
 
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #034c52;
+}
+
+nav div:first-child {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  background-color: #017075;
+  border-radius: 5px;
+}
+
+nav div:first-child h1 {
+  color: #c7c7c8;
+  padding: 10px 20px;
+}
+
+nav div:first-child h1 span {
+  color: #ffffff;
+}
+
+nav div:last-child {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+nav div:last-child span {
+  font-size: 35px;
+}
+
 /*# sourceMappingURL=styles.css.map */

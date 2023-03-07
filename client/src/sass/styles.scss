@@ -1,12 +1,19 @@
-//Variables
+//Variables - Main Colors
+// Green
 $darkGreen:#034c52;
 $mediumGreen:#015c63;
 $lightGreen:#017075;
-$darkSalmo:#e6a69a;
+// Salmon
+$darkSalmon:#e6a69a;
 $mediumSalmon:#ffbaab;
 $lightSalmon:#ffc3b8;
+// Gray
+$darkGray: #575656;
+$mediumGray: #c7c7c8;
+$lightGray: #ececec;
+$white: #ffffff;
 
-
+// Variables - Font Colors & Styles
 
 //Estilos globales
 *{
@@ -15,3 +22,13 @@ $lightSalmon:#ffc3b8;
     text-decoration: none;
     list-style: none;
   }
+
+// Import
+// Pages
+@import './pages/clinic.scss';
+@import './pages/home.scss';
+@import './pages/contact.scss';
+@import './pages/team.scss';
+@import './pages/services.scss';
+// Components
+@import './components/header/nav.scss'

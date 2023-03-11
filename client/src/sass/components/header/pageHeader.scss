@@ -1,0 +1,18 @@
+.pageHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $lightGray;
+    height: 600px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -5,20 +5,33 @@
   list-style: none;
 }
 
+body,
+.app,
+.home {
+  width: 100%;
+  height: 100%;
+}
+
 nav {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
   height: 80px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #034c52;
+}
+
+nav h1,
+nav h2,
+nav span {
+  color: #ffffff;
 }
 
 nav div:first-child {
   display: flex;
   align-items: center;
-  margin-left: 40px;
+  justify-content: center;
   background-color: #017075;
   border-radius: 5px;
 }
@@ -34,14 +47,48 @@ nav div:first-child h1 span {
 
 nav div:last-child {
   display: flex;
-  width: 15%;
+  width: 250px;
   justify-content: space-between;
   align-items: center;
-  margin-right: 40px;
+}
+
+nav .nav-getintouch {
+  background-color: rgba(236, 236, 236, 0.2862745098);
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 nav div:last-child span {
   font-size: 35px;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ececec;
+  height: 600px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-popup {
+  width: 300px;
+  height: 350px;
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  right: 200px;
 }
 
 /*# sourceMappingURL=styles.css.map */

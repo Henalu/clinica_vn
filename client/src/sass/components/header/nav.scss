@@ -3,34 +3,45 @@ nav {
     flex-flow: row wrap;
     width: 100%;
     height: 80px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: $darkGreen;
+}
+
+nav h1,
+nav h2,
+nav span {
+    color: $white;
 }
 
 nav div:first-child {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    justify-content: center;
     background-color: $lightGreen;
     border-radius: 5px;
 }
 
-nav div:first-child h1{
+nav div:first-child h1 {
     color: $mediumGray;
     padding: 10px 20px
 }
 
-nav div:first-child h1 span{
+nav div:first-child h1 span {
     color: $white;
 }
 
 nav div:last-child {
     display: flex;
-    width: 15%;
+    width: 250px;
     justify-content: space-between;
     align-items: center;
-    margin-right: 40px;
+}
+
+nav .nav-getintouch{
+    background-color: #ececec49;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 nav div:last-child span {

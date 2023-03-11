@@ -1,12 +1,12 @@
 //Variables - Main Colors
 // Green
-$darkGreen:#034c52;
-$mediumGreen:#015c63;
-$lightGreen:#017075;
+$darkGreen: #034c52;
+$mediumGreen: #015c63;
+$lightGreen: #017075;
 // Salmon
-$darkSalmon:#e6a69a;
-$mediumSalmon:#ffbaab;
-$lightSalmon:#ffc3b8;
+$darkSalmon: #e6a69a;
+$mediumSalmon: #ffbaab;
+$lightSalmon: #ffc3b8;
 // Gray
 $darkGray: #575656;
 $mediumGray: #c7c7c8;
@@ -16,12 +16,19 @@ $white: #ffffff;
 // Variables - Font Colors & Styles
 
 //Estilos globales
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body,
+.app,
+.home {
+  width: 100%;
+  height: 100%;
+}
 
 // Import
 // Pages
@@ -31,4 +38,6 @@ $white: #ffffff;
 @import './pages/team.scss';
 @import './pages/services.scss';
 // Components
-@import './components/header/nav.scss'
+@import './components/header/nav.scss';
+@import './components/header/pageHeader.scss';
+@import './components/header/menuPopup.scss'

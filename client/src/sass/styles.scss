@@ -1,21 +1,33 @@
-//Variables - Main Colors
+//? Variables - Main Colors
 // Green
 $darkGreen: #034c52;
 $mediumGreen: #015c63;
 $lightGreen: #017075;
+$transp-darkGreen: #034c527f;
+$transp-mediumGreen: #015c6385;
+$transp-lightGreen: #016f757d;
 // Salmon
 $darkSalmon: #e6a69a;
 $mediumSalmon: #ffbaab;
 $lightSalmon: #ffc3b8;
+$transp-darkSalmon: #ffbaab85;
+$transp-mediumSalmon: #ffbaab82;
+$transp-lightSalmon: #ffc3b882;
 // Gray
 $darkGray: #575656;
 $mediumGray: #c7c7c8;
 $lightGray: #ececec;
 $white: #ffffff;
+$transp-darkGray: #5756567c;
+$transp-mediumGray: #c7c7c887;
+$transp-lightGray: #ececec7d;
+$transp-white: #ffffff77;
 
-// Variables - Font Colors & Styles
+//? FlexBox
 
-//Estilos globales
+//? Variables - Font Colors & Styles
+
+//? Estilos globales
 * {
   margin: 0;
   padding: 0;
@@ -23,21 +35,32 @@ $white: #ffffff;
   list-style: none;
 }
 
-body,
-.app,
-.home {
-  width: 100%;
-  height: 100%;
+*:visited{
+  color: inherit;
 }
 
-// Import
-// Pages
+body,
+.app,
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: $lightGray
+}
+
+//? Import
+//* Pages
 @import './pages/clinic.scss';
 @import './pages/home.scss';
 @import './pages/contact.scss';
 @import './pages/team.scss';
 @import './pages/services.scss';
-// Components
+//* Components
+// Header
 @import './components/header/nav.scss';
 @import './components/header/pageHeader.scss';
-@import './components/header/menuPopup.scss'
+@import './components/header/menuPopup.scss';
+// Content
+@import './components/content/cardTextImgBtn.scss';
+@import './components/content/vertImgTextBtn.scss';

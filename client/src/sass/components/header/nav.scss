@@ -1,4 +1,6 @@
 nav {
+    position: sticky;
+    top: 0;
     display: flex;
     flex-flow: row wrap;
     width: 100%;
@@ -6,6 +8,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: $darkGreen;
+    z-index: 1;
 }
 
 nav h1,
@@ -14,12 +17,17 @@ nav span {
     color: $white;
 }
 
+nav span {
+    cursor: pointer;
+}
+
 nav div:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: $lightGreen;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 nav div:first-child h1 {
@@ -31,19 +39,20 @@ nav div:first-child h1 span {
     color: $white;
 }
 
-nav div:last-child {
+nav div:nth-child(2) {
     display: flex;
     width: 250px;
     justify-content: space-between;
     align-items: center;
 }
 
-nav .nav-getintouch{
+nav .nav-getintouch {
     background-color: #ececec49;
     padding: 10px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-nav div:last-child span {
+nav div:nth-child(2) span {
     font-size: 35px;
 }

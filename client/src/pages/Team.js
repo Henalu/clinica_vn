@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from '../components/Header/Nav'
 
 const Team = () => {
   return (
-    <div>
-      Equipo
+    <div className='page team'>
+      <Nav />
     </div>
   )
 }

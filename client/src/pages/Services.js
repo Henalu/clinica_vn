@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from '../components/Header/Nav'
 
 const Services = () => {
   return (
-    <div>
-      Servicios
+    <div className='page services'>
+      <Nav />
     </div>
   )
 }

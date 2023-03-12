@@ -3,16 +3,19 @@
     justify-content: center;
     align-items: center;
     background-color: $lightGray;
-    height: 600px;
+    width: 100%;
+    height: 45vw;
+    max-height: 600px;
 }
 
-.img-container{
+.pageHeader .img-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 90%;
+    width: 85%;
+    height: 85%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 3px;
 }

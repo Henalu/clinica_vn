@@ -8,6 +8,7 @@ import femaleDentist from '../img/dentist-girl.jpg'
 import kid from '../img/dentist-kid.jpg'
 import doctor from '../img/doctor-profile.jpg'
 import nurse from '../img/nurse.jpg'
+import Carrusel from '../components/Content/Carousel'
 
 const Home = () => {
 
@@ -34,6 +35,8 @@ const Home = () => {
   return (
     <div className='page home'>
       <Nav />
+      <Carrusel/>      
+      
       <PageHeader img={chairImg} />
       <CardTextImgBtn content={cardTextImgBtn_content} />
       <VertImgTextBtn content={vertImgTextBtn_content} />

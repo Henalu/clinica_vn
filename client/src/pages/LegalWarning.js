@@ -3,7 +3,7 @@ import Nav from '../components/Header/Nav'
 
 const LegalWarning = () => {
   return (
-    <div className='page services'>
+    <div className='page legalWarning'>
       <Nav />
 <div>
     <p>1. DATOS IDENTIFICATIVOS

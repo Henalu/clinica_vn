@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Header/Nav'
+import Footer from '../components/Info/Footer'
 
 const Cookies = () => {
   return (
@@ -36,7 +37,7 @@ Mediante el acceso a clinicaprimitivoroig.com aceptas de manera expresa que poda
 
  
 
-a)     Cookies propias
+a   Cookies propias
 
 Con el fin de reconocerte y prestarte un mejor servicio, nuestro sitio utiliza cookies (pequeños archivos de texto que tu navegador almacena) propias. Las ventajas que conlleva la aceptación de nuestras cookies se traduce en un ahorro de tiempo. Asimismo pueden ser utilizadas también para reconocerte entre visitas sucesivas y así adaptar el contenido que se te muestra, para obtener información acerca de la fecha y hora de tu última visita, medir algunos parámetros de tráfico dentro del propio sitio, y estimar el número de visitas realizadas, de manera que podamos enfocar y ajustar los servicios y promociones de forma más efectiva.
 
@@ -47,7 +48,7 @@ Nombre	Propósito
 cookie_notice_acce pted	Cookies para almacenar su aceptación de nuestra política de cookies
  
 
-b)     Cookies de Terceros. Cookies de Google Analytics
+b    Cookies de Terceros. Cookies de Google Analytics
 
 El sitio utiliza el servicio Google Analytics, que es prestado por Google, Inc., entidad cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos («Google»).
 
@@ -196,6 +197,7 @@ Si utilizas Safari, en la opción Preferencias : Seguridad o Privacidad, podrás
 Si desea deshabilitar Google Universal Analytics, puede instalar la siguiente extensión proporcionada por Google: https://tools.google.com/dlpage/gaoptout
         </p>
       </div>
+      <Footer/> 
     </div>
   )
 }

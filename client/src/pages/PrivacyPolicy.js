@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Header/Nav'
+import Footer from '../components/Info/Footer'
 
 const PrivacyPolicy = () => {
   return (
@@ -51,6 +52,7 @@ El usuario tiene derecho a obtener confirmación sobre si el PROPIETARIO DE LA W
 El PROPIETARIO DE LA WEB tratará los datos del Usuario en todo momento de forma absolutamente confidencial y guardando el preceptivo deber de secreto respecto de los mismos, de conformidad con lo previsto en la normativa de aplicación, adoptando al efecto las medidas de índole técnica y organizativas necesarias que garanticen la seguridad de sus datos y eviten su alteración, pérdida, tratamiento o acceso no autorizado, habida cuenta del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que están expuestos.
         </p>
       </div>
+      <Footer/> 
     </div>
   )
 }

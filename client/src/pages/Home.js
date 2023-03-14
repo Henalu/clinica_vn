@@ -2,8 +2,7 @@ import React from 'react'
 import CardTextImgBtn from '../components/Content/CardTextImgBtn'
 import VertImgTextBtn from '../components/Content/VertImgTextBtn'
 import Nav from '../components/Header/Nav'
-import PageHeader from '../components/Header/PageHeader'
-import chairImg from '../img/chair-clinic.jpg'
+// import PageHeader from '../components/Header/PageHeader'
 import femaleDentist from '../img/dentist-girl.jpg'
 import kid from '../img/dentist-kid.jpg'
 import doctor from '../img/doctor-profile.jpg'
@@ -35,14 +34,12 @@ const Home = () => {
 
   return (
     <div className='page home'>
-      <Nav />
-      <Carrusel/>      
-      
-      <PageHeader img={chairImg} />
+      <Nav/>
+      <Carrusel/>   
+      {/* <PageHeader/> */}
       <CardTextImgBtn content={cardTextImgBtn_content} />
       <VertImgTextBtn content={vertImgTextBtn_content} />
       <Footer/>   
-      
     </div>
   )
 }

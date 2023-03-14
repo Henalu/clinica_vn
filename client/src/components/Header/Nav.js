@@ -4,6 +4,10 @@ import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { visibleMenu } from '../../redux/tasks/menuSlice'
 import MenuPopUp from './MenuPopUp'
+import logohome from '../../img/logohome.png'
+
+
+
 
 const Nav = () => {
 
@@ -29,7 +33,7 @@ const Nav = () => {
   return (
     <nav>
       <div className='nav-title-container'>
-        <h1 className='nav-title'>Clinica <span>viéitez núñez</span></h1>
+        <img src={logohome} className='nav-title'/>
       </div>
       <div ref={navDivRef}>
         <Link to={'/contact'}><h2 className='nav-getintouch'>Pedir Cita</h2></Link>
@@ -40,4 +44,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;

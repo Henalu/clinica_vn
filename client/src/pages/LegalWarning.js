@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Header/Nav'
+import Footer from '../components/Info/Footer'
 
 const LegalWarning = () => {
   return (
@@ -80,7 +81,7 @@ El PROPIETARIO DE LA WEB perseguirá el incumplimiento de las presentes condicio
 El PROPIETARIO DE LA WEB podrá modificar en cualquier momento las condiciones aquí determinadas, siendo debidamente publicadas como aquí aparecen. La vigencia de las citadas condiciones irá en función de su exposición y estarán vigentes hasta que sean modificadas por otras debidamente publicadas. </p>
 </div>
 
-
+<Footer/> 
     </div>
   )
 }

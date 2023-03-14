@@ -9,6 +9,7 @@ import kid from '../img/dentist-kid.jpg'
 import doctor from '../img/doctor-profile.jpg'
 import nurse from '../img/nurse.jpg'
 import Carrusel from '../components/Content/Carousel'
+import Footer from '../components/Info/Footer'
 
 const Home = () => {
 
@@ -40,6 +41,8 @@ const Home = () => {
       <PageHeader img={chairImg} />
       <CardTextImgBtn content={cardTextImgBtn_content} />
       <VertImgTextBtn content={vertImgTextBtn_content} />
+      <Footer/>   
+      
     </div>
   )
 }

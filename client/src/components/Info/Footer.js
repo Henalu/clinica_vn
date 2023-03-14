@@ -8,16 +8,16 @@ import twitter from '../../img/logotwitter.png';
 const Footer = () => {
   return (
     <div>
-      <footer class="bg-neutral-200 text-center text-white dark:bg-neutral-600">
-        <div class="container pt-4 text-center">
-          <div class="mb-9 flex justify-center logofooter">
-            <a href="https://es-es.facebook.com/clinicavieiteznunez/" class="h-4 w-9 mr-9 text-neutral-800 dark:text-neutral-200"><img src={facebook}/></a>
-            <a href="https://www.instagram.com/clinicavieiteznunez/" class="h-4 w-9 mr-9 text-neutral-800 dark:text-neutral-200"><img src={instagram}/></a>
-            <a href="#!" class="h-4 w-9 mr-9 text-neutral-800 dark:text-neutral-200 "><img src={youtube}/></a>
-            <a href="#!" class="h-4 w-9 mr-9 text-neutral-800 dark:text-neutral-200"><img src={twitter}/></a>
+      <footer class="bg-neutral-200 grid place-content-center">
+        <div class="container pt-4 ">
+          <div class="mb-9 flex justify-center">
+            <a href="https://es-es.facebook.com/clinicavieiteznunez/" class="h-1 w-11 mr-9"><img src={facebook}/></a>
+            <a href="https://www.instagram.com/clinicavieiteznunez/" class="h-1 w-11 mr-9"><img src={instagram}/></a>
+            <a href="#!" class="h-1 w-11 mr-9"><img src={youtube}/></a>
+            <a href="#!" class="h-1 w-11 mr-9"><img src={twitter}/></a>
           </div>
         </div>
-        <div class="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+        <div class="bg-neutral-200 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
           Copyright © 2023 Clínica Viéitez Núñez. Todos los derechos reservados.
           <div class="text-neutral-800 dark:text-neutral-400">
             <Link to="/legalwarning"> Aviso legal |</Link>

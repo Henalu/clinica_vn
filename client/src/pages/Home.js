@@ -39,7 +39,7 @@ const Home = () => {
       <Nav/>
       {/* <Carrusel/>    */}
       {/* <PageHeader/> */}
-<Video/>
+      <Video/>
       <CardTextImgBtn content={cardTextImgBtn_content} />
       <VertImgTextBtn content={vertImgTextBtn_content} />
       {/* <Footer/>    */}

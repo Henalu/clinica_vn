@@ -7,8 +7,8 @@ import femaleDentist from '../img/dentist-girl.jpg'
 import kid from '../img/dentist-kid.jpg'
 import doctor from '../img/doctor-profile.jpg'
 import nurse from '../img/nurse.jpg'
-import Carrusel from '../components/Content/Carousel'
-import Footer from '../components/Info/Footer'
+// import Carrusel from '../components/Content/Carousel'
+// import Footer from '../components/Info/Footer'
 
 const Home = () => {
 
@@ -35,11 +35,11 @@ const Home = () => {
   return (
     <div className='page home'>
       <Nav/>
-      <Carrusel/>   
+      {/* <Carrusel/>    */}
       {/* <PageHeader/> */}
       <CardTextImgBtn content={cardTextImgBtn_content} />
       <VertImgTextBtn content={vertImgTextBtn_content} />
-      <Footer/>   
+      {/* <Footer/>    */}
     </div>
   )
 }

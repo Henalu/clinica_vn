@@ -1,3 +1,23 @@
+//? Import
+//* Pages
+@import './pages/clinic.scss';
+@import './pages/home.scss';
+@import './pages/contact.scss';
+@import './pages/team.scss';
+@import './pages/services.scss';
+//* Components
+// Header
+@import './components/header/nav.scss';
+@import './components/header/pageHeader.scss';
+@import './components/header/menuPopup.scss';
+//  Footer
+@import './components/header/footer.scss';
+// Content
+@import './components/content/cardTextImgBtn.scss';
+@import './components/content/vertImgTextBtn.scss';
+@import './components/content/video.scss';
+
+
 //? Variables - Main Colors
 // Green
 $darkGreen: #034c52;
@@ -49,20 +69,3 @@ body,
   background-color: $lightGray
 }
 
-//? Import
-//* Pages
-@import './pages/clinic.scss';
-@import './pages/home.scss';
-@import './pages/contact.scss';
-@import './pages/team.scss';
-@import './pages/services.scss';
-//* Components
-// Header
-@import './components/header/nav.scss';
-@import './components/header/pageHeader.scss';
-@import './components/header/menuPopup.scss';
-//  Footer
-@import './components/header/footer.scss';
-// Content
-@import './components/content/cardTextImgBtn.scss';
-@import './components/content/vertImgTextBtn.scss';

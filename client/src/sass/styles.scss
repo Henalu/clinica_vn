@@ -27,6 +27,19 @@ $transp-white: #ffffff77;
 
 //? Variables - Font Colors & Styles
 
+@font-face {
+  font-family: 'Source';
+  src: url('../../public/fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Isidora';
+  src: url('../../public/fonts/IsidoraSansAlt-Regular.ttf');
+}
+
+$fontprin: 'Source';
+$fontsec: 'Isidora';
+
 //? Estilos globales
 * {
   margin: 0;

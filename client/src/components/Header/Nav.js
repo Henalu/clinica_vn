@@ -8,7 +8,6 @@ import logohome from '../../img/logohomenav.png'
 import logotelf from '../../img/logotelf.png'
 import logowhasa from '../../img/logowhasa.png'
 
-
 const Nav = () => {
 
   const navDivRef = useRef(null);

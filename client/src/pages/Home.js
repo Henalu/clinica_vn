@@ -2,15 +2,16 @@ import React from 'react'
 import CardTextImgBtn from '../components/Content/CardTextImgBtn'
 import VertImgTextBtn from '../components/Content/VertImgTextBtn'
 import Nav from '../components/Header/Nav'
-// import PageHeader from '../components/Header/PageHeader'
 import Video from '../components/Header/Video'
+// import Carrusel from '../components/Content/Carousel'
+// import Footer from '../components/Info/Footer'
+
+
 import femaleDentist from '../img/dentist-girl.jpg'
 import kid from '../img/dentist-kid.jpg'
 import doctor from '../img/doctor-profile.jpg'
 import nurse from '../img/nurse.jpg'
 
-// import Carrusel from '../components/Content/Carousel'
-// import Footer from '../components/Info/Footer'
 
 const Home = () => {
 
@@ -37,11 +38,10 @@ const Home = () => {
   return (
     <div className='page home'>
       <Nav/>
-      {/* <Carrusel/>    */}
-      {/* <PageHeader/> */}
       <Video/>
       <CardTextImgBtn content={cardTextImgBtn_content} />
       <VertImgTextBtn content={vertImgTextBtn_content} />
+      {/* <Carrusel/>    */}
       {/* <Footer/>    */}
     </div>
   )

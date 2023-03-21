@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
+// import VideoPortada from '../../img/videoportada.mp4'
 
 const Video = () => {
     return (
         <div>
             <ReactPlayer
-                url='https://www.youtube.com/watch?v=X9J2ea8iNnM&ab_channel=AvinovFilms'
+                // url='https://www.youtube.com/watch?v=X9J2ea8iNnM&ab_channel=AvinovFilms'
+                url='videos/videoportada.mp4'
                 className='react-player'
                 playing
                 loop='true'

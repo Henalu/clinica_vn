@@ -1,11 +1,10 @@
 import React from 'react'
-import Nav from '../components/Header/Nav'
-import Footer from '../components/Info/Footer'
+// import Footer from '../components/Info/Footer'
 
 const Cookies = () => {
   return (
     <div className='page cookies'>
-      <Nav />
+
 <div
   class="rounded-lg bg-neutral-100 p-6 text-neutral-700 shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:shadow-black/30">
   <h2 class="mb-5 text-3xl font-semibold">Política de cookies</h2>
@@ -181,7 +180,6 @@ Si desea deshabilitar Google Universal Analytics, puede instalar la siguiente ex
   </button>
 </div>
 
-      <Footer/> 
     </div>
   )
 }

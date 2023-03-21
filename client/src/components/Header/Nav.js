@@ -4,9 +4,9 @@ import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { visibleMenu } from '../../redux/tasks/menuSlice'
 import MenuPopUp from './MenuPopUp'
-import logohome from '../../img/logohome.png'
-
-
+import logohome from '../../img/logohomenav.png'
+import logotelf from '../../img/logotelf.png'
+import logowhasa from '../../img/logowhasa.png'
 
 
 const Nav = () => {
@@ -35,8 +35,11 @@ const Nav = () => {
       <div className='nav-title-container'>
         <img src={logohome} className='nav-title'/>
       </div>
-      <div ref={navDivRef}>
-        <Link to={'/contact'}><h2 className='nav-getintouch'>Pedir Cita</h2></Link>
+      <div className='nav-grup-contact' ref={navDivRef}>
+       
+        <Link to={'/contact'}><img src={logowhasa}/><h2 className='nav-getintouchWa'>+34 666 647 075</h2> </Link>
+  
+        <Link to={'/contact'}><img src={logotelf}/><h2 className='nav-getintouchTel'>+34 952 001 202</h2></Link>
         <span onClick={handleClick}><AiOutlineMenu /></span>
       </div>
       <MenuPopUp navDivPosX={navDivPosX} />

@@ -1,11 +1,10 @@
 import React from 'react'
-import Nav from '../components/Header/Nav'
-import Footer from '../components/Info/Footer'
+// import Footer from '../components/Info/Footer'
 
 const PrivacyPolicy = () => {
   return (
     <div className='page privacyPolicy'>
-      <Nav />
+
       <div
         class="rounded-lg bg-neutral-100 p-6 text-neutral-700 shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:shadow-black/30">
         <h2 class="mb-5 text-3xl font-semibold">Política de privacidad</h2>
@@ -62,7 +61,7 @@ const PrivacyPolicy = () => {
           Leer más
         </button>
       </div>
-      <Footer />
+
     </div>
   )
 }

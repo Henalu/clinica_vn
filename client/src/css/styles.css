@@ -28,14 +28,17 @@ nav {
   height: 80px;
   justify-content: space-around;
   align-items: center;
-  background-color: #034c52;
   z-index: 1;
+}
+
+.nav-title {
+  width: 500px;
 }
 
 nav h1,
 nav h2,
 nav span {
-  color: #ffffff;
+  color: #575656;
 }
 
 nav span {
@@ -46,7 +49,6 @@ nav div:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #017075;
   border-radius: 5px;
   cursor: pointer;
 }
